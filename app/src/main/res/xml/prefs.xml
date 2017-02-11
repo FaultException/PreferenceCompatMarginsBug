@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory android:title="A category">
+        <SwitchPreferenceCompat key="switchy1" android:title="A switch" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="Another category">
+        <SwitchPreferenceCompat key="switchy2" android:title="A switch" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="Yet another category">
+        <SwitchPreferenceCompat key="switchy3" android:title="A switch" />
+    </PreferenceCategory>
+
+</PreferenceScreen>
